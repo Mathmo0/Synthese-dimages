@@ -1,0 +1,43 @@
+
+OC
+
+\FACE
+ID
+
+\FACE
+RT 0 0 0 1 0 0 \pisur2
+HO 0 0 0 0 1 0 -1
+ID
+
+\FACE
+RT 0 0 0 0 1 0 -\pisur2
+HO 0 0 0 1 0 0 -1
+ID
+
+\FACE
+HO 0 0 0 1 0 0 -1
+HO 0 0 0 0 1 0 -1
+HO 0 0 0 0 0 1 -1
+TR 6 6 6
+ID
+
+\FACE
+RT 0 0 0 1 0 0 \pisur2
+HO 0 0 0 0 1 0 -1
+HO 0 0 0 1 0 0 -1
+HO 0 0 0 0 1 0 -1
+HO 0 0 0 0 0 1 -1
+TR 6 6 6
+ID
+
+\FACE
+RT 0 0 0 0 1 0 -\pisur2
+HO 0 0 0 1 0 0 -1
+HO 0 0 0 1 0 0 -1
+HO 0 0 0 0 1 0 -1
+HO 0 0 0 0 0 1 -1
+TR 6 6 6
+ID
+
+FI
+

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{82E26A55-BC6E-4DCF-8112-902767EFE6E4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut/glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)n3d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)n3d.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut/glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)n3d.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aff.cpp" />
+    <ClCompile Include="Alg.cpp" />
+    <ClCompile Include="Attr.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Canon.cpp" />
+    <ClCompile Include="cgApplication.cpp" />
+    <ClCompile Include="Cgbutton.cpp" />
+    <ClCompile Include="cgCheckBox.cpp" />
+    <ClCompile Include="cgChoiceBox.cpp" />
+    <ClCompile Include="cgControl.cpp" />
+    <ClCompile Include="Cgform.cpp" />
+    <ClCompile Include="Cgframe.cpp" />
+    <ClCompile Include="Cglabel.cpp" />
+    <ClCompile Include="cgRadioButton.cpp" />
+    <ClCompile Include="Cgslider.cpp" />
+    <ClCompile Include="cgSliderWithDisplay.cpp" />
+    <ClCompile Include="cgSpinner.cpp" />
+    <ClCompile Include="cgTextBox.cpp" />
+    <ClCompile Include="Cgview.cpp" />
+    <ClCompile Include="Cgwindow.cpp" />
+    <ClCompile Include="Chaine.cpp" />
+    <ClCompile Include="Coeff.cpp" />
+    <ClCompile Include="Couleur.cpp" />
+    <ClCompile Include="Couleurs.cpp" />
+    <ClCompile Include="Cylindre.cpp" />
+    <ClCompile Include="definition.cpp" />
+    <ClCompile Include="designateur.cpp" />
+    <ClCompile Include="DisplayOpenGL.cpp" />
+    <ClCompile Include="droite.cpp" />
+    <ClCompile Include="editiontp4.cpp" />
+    <ClCompile Include="Englobe.cpp" />
+    <ClCompile Include="Ensemble.cpp" />
+    <ClCompile Include="Eps.cpp" />
+    <ClCompile Include="Erreur.cpp" />
+    <ClCompile Include="FenetreAnimation.cpp" />
+    <ClCompile Include="FenetreCamera.cpp" />
+    <ClCompile Include="FenetreDesignateur.cpp" />
+    <ClCompile Include="FenetreLumiere.cpp" />
+    <ClCompile Include="FenetrePrincipale.cpp" />
+    <ClCompile Include="FenetreSetting.cpp" />
+    <ClCompile Include="FenetreTransformation.cpp" />
+    <ClCompile Include="Fichier.cpp" />
+    <ClCompile Include="fractal.cpp" />
+    <ClCompile Include="Geo.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Inter.cpp" />
+    <ClCompile Include="Io.cpp" />
+    <ClCompile Include="Lumiere.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mat.cpp" />
+    <ClCompile Include="Objet.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Parti.cpp" />
+    <ClCompile Include="particule.cpp" />
+    <ClCompile Include="plan.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="Polygone.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneCamera.cpp" />
+    <ClCompile Include="Segment.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="Transfo.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Utilalg.cpp" />
+    <ClCompile Include="Utilreel.cpp" />
+    <ClCompile Include="Vide.cpp" />
+    <ClCompile Include="Vision.cpp" />
+    <ClCompile Include="Volume.cpp" />
+    <ClCompile Include="rayons.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aff.h" />
+    <ClInclude Include="Alg.h" />
+    <ClInclude Include="Attr.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Canon.h" />
+    <ClInclude Include="cgApplication.h" />
+    <ClInclude Include="Cgbutton.h" />
+    <ClInclude Include="cgCheckBox.h" />
+    <ClInclude Include="cgChoiceBox.h" />
+    <ClInclude Include="cgControl.h" />
+    <ClInclude Include="cgcString.h" />
+    <ClInclude Include="cgcTableau.h" />
+    <ClInclude Include="Cgform.h" />
+    <ClInclude Include="Cgframe.h" />
+    <ClInclude Include="Cglabel.h" />
+    <ClInclude Include="cgRadioButton.h" />
+    <ClInclude Include="Cgslider.h" />
+    <ClInclude Include="cgSliderWithDisplay.h" />
+    <ClInclude Include="cgSpinner.h" />
+    <ClInclude Include="cgTextBox.h" />
+    <ClInclude Include="Cgview.h" />
+    <ClInclude Include="Cgwindow.h" />
+    <ClInclude Include="Chaine.h" />
+    <ClInclude Include="Coeff.h" />
+    <ClInclude Include="composante.h" />
+    <ClInclude Include="Couleur.h" />
+    <ClInclude Include="Couleurs.h" />
+    <ClInclude Include="Cylindre.h" />
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="designateur.h" />
+    <ClInclude Include="DisplayOpenGL.h" />
+    <ClInclude Include="Droite.h" />
+    <ClInclude Include="Englobe.h" />
+    <ClInclude Include="Ensemble.h" />
+    <ClInclude Include="Eps.h" />
+    <ClInclude Include="Erreur.h" />
+    <ClInclude Include="FenetreAnimation.h" />
+    <ClInclude Include="FenetreCamera.h" />
+    <ClInclude Include="FenetreDesignateur.h" />
+    <ClInclude Include="FenetreLumiere.h" />
+    <ClInclude Include="FenetrePrincipale.h" />
+    <ClInclude Include="FenetreSetting.h" />
+    <ClInclude Include="FenetreTransformation.h" />
+    <ClInclude Include="Fichier.h" />
+    <ClInclude Include="Fractal.h" />
+    <ClInclude Include="Geo.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="Inter.h" />
+    <ClInclude Include="Io.h" />
+    <ClInclude Include="Lumiere.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Mat.h" />
+    <ClInclude Include="Objet.h" />
+    <ClInclude Include="Objets.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Parti.h" />
+    <ClInclude Include="particule.h" />
+    <ClInclude Include="Plan.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Polygone.h" />
+    <ClInclude Include="Rayons.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneCamera.h" />
+    <ClInclude Include="Segment.h" />
+    <ClInclude Include="Select.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Transfo.h" />
+    <ClInclude Include="typeobjet.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Utilalg.h" />
+    <ClInclude Include="Utilreel.h" />
+    <ClInclude Include="Vide.h" />
+    <ClInclude Include="Vision.h" />
+    <ClInclude Include="Volume.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

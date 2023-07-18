@@ -1,0 +1,16 @@
+OC
+
+\CUBE
+TR -3 -3 -3
+ID
+
+{
+\CUBE
+TR -3 -3 -3
+RT 0 0 0 1 1 1 0.765
+ID
+}
+
+FI
+CD 1 1 0
+ID
