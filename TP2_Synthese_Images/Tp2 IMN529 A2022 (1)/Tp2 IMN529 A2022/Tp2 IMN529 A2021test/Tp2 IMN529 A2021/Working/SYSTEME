@@ -1,0 +1,14 @@
+OC {systeme d'axe}
+SG {axe des X}
+0 0 0
+1 0 0
+ID
+SG {axe des Y}
+0 0 0
+0 1 0
+ID
+SG {axe des Z}
+0 0 0
+0 0 1
+ID
+FI

@@ -1,0 +1,7 @@
+﻿  fractal.cpp
+D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\fractal.cpp(24,13): warning C4101: 'z' : variable locale non référencée
+D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\fractal.cpp(45,7): warning C4101: 'seedZ' : variable locale non référencée
+D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\fractal.cpp(24,10): warning C4101: 'y' : variable locale non référencée
+D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\fractal.cpp(43,7): warning C4101: 'seedX' : variable locale non référencée
+D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\fractal.cpp(44,7): warning C4101: 'seedY' : variable locale non référencée
+  n3d.vcxproj -> D:\Cours_SHERBROOKE\Synthese_images\TP2_Synthese_Images\Tp2 IMN529 A2022 (1)\Tp2 IMN529 A2022\Tp2 IMN529 A2022\Debug\n3d.exe
