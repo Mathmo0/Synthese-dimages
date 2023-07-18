@@ -1,0 +1,80 @@
+﻿  Aff.cpp
+  Alg.cpp
+  Attr.cpp
+  Camera.cpp
+  Canon.cpp
+  cgApplication.cpp
+  Cgbutton.cpp
+  cgCheckBox.cpp
+  cgChoiceBox.cpp
+  cgControl.cpp
+  Cgform.cpp
+  Cgframe.cpp
+  Cglabel.cpp
+  cgRadioButton.cpp
+  Cgslider.cpp
+  cgSliderWithDisplay.cpp
+  cgSpinner.cpp
+  cgTextBox.cpp
+  Cgview.cpp
+  Cgwindow.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  Chaine.cpp
+  Coeff.cpp
+  Couleur.cpp
+  Couleurs.cpp
+  Cylindre.cpp
+  definition.cpp
+  designateur.cpp
+  DisplayOpenGL.cpp
+  droite.cpp
+  editiontp4.cpp
+  Englobe.cpp
+  Ensemble.cpp
+  Eps.cpp
+  Erreur.cpp
+  FenetreAnimation.cpp
+  FenetreCamera.cpp
+  FenetreDesignateur.cpp
+  FenetreLumiere.cpp
+  FenetrePrincipale.cpp
+D:\Cours_SHERBROOKE\Synthese_images\TP1_Synthese_Images\Tp1 IMN529 A2022\Tp1 IMN529 A2022\FenetrePrincipale.cpp(29,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'Rayons.h' : No such file or directory
+  FenetreSetting.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  FenetreTransformation.cpp
+  Fichier.cpp
+  fractal.cpp
+  Geo.cpp
+  Global.cpp
+  Inter.cpp
+  Io.cpp
+  Lumiere.cpp
+  Main.cpp
+  Mat.cpp
+  Objet.cpp
+  Parser.cpp
+  Parti.cpp
+  particule.cpp
+  plan.cpp
+  point.cpp
+  Polygone.cpp
+  Scene.cpp
+  SceneCamera.cpp
+  Segment.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  Select.cpp
+  Settings.cpp
+  sphere.cpp
+  Transfo.cpp
+  Util.cpp
+  Utilalg.cpp
+  Utilreel.cpp
+  Vide.cpp
+  Vision.cpp
+  Volume.cpp
+  rayons.cpp
+c1xx : fatal error C1083: Impossible d'ouvrir le fichier source : 'rayons.cpp' : No such file or directory
+  Génération de code en cours...

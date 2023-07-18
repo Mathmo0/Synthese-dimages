@@ -1,0 +1,4 @@
+Pour ce TP nous avons implémenté Tout les élements du sujet notament la réflexion et les ombres. 
+Nous avons également implémenté la Réfraction avec l'équation de Fresnel.
+Dans la scène que nous avons inclu dans ce dossier, la boule en premier plan est une boule en diamant 
+avec de l'air autour.
